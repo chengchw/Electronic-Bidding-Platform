@@ -1,0 +1,41 @@
+Second Handed electronic bidding platform
+
+
+Home Page
+	- Register (As Trader or Provider)
+	- Login  (As Trader or Provider)
+
+If Login as Provider
+	- Home page (On shelf product, View all product, Account Info)
+		○ Log off
+	- On shelf Page
+		○ Put detail for the product onshelf(Image, Year Made, Category, Brand, Damage Severity, location(align to account owner) Detail, Tag , Initial Price, bit amount)
+			§ Register product (validate the product)
+			§ Many to one mapping (Product to user, Product to Brand, Product to Category)
+			§ Many to many (Product to Tag)
+			
+	- View product Page
+		○ List of all products on shelf 
+			§ Edit / delete product
+			§ Product current bidding price
+			§ Recent bidding person
+	- Edit Product Page
+		○ Edit product info 
+	- Seller Account Info
+		○ Present seller info (Can be edit if account owner see this page)
+			§ City, State, Email, Phone Number, Successful sell product
+
+If Login as Trader
+	- Home Page(Clickable Product, Trader Account Info)
+		○ Default to view product
+		○ User can choose to view by location, category or brand
+		○ product should show the current price
+		○ Product on shelf can be clickable
+		○ Logoff
+	- Product Page
+		○ List out product detail ( include initial bidding price, current bidding price, minimal bidding, who is the seller)
+		○ Seller info will be present once it click and redirect to the seller Account Info
+	- Trader Account Info
+		○ Phone
+		○ Email
+Bidding product
